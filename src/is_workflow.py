@@ -33,7 +33,7 @@ from src.helpers.motorlogparser import MotorLogParser
 class Config:
     KLIPPER_FOLDER = Path.home() / 'klipper'
     KLIPPER_LOG_FOLDER = Path.home() / 'printer_data/logs'
-    RESULTS_BASE_FOLDER = Path.home() / 'printer_data/config/K-ShakeTune_results'
+    RESULTS_BASE_FOLDER = Path.home() / 'printer_data/tuning/K-ShakeTune_results'
     RESULTS_SUBFOLDERS = {'belts': 'belts', 'shaper': 'inputshaper', 'vibrations': 'vibrations'}
 
     @staticmethod
