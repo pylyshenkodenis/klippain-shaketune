@@ -98,7 +98,7 @@ function link_extension {
         echo "[INSTALL] Klippain full installation found! Linking module to the script folder of Klippain"
         ln -frsn ${K_SHAKETUNE_PATH}/K-ShakeTune ${USER_CONFIG_PATH}/scripts/K-ShakeTune
     else
-        ln -frsn ${K_SHAKETUNE_PATH}/K-ShakeTune ${USER_CONFIG_PATH}/K-ShakeTune
+        ln -frsn ${K_SHAKETUNE_PATH}/K-ShakeTune ${USER_CONFIG_PATH}/tuning
     fi
 }
 
